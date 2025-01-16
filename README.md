@@ -56,10 +56,10 @@ Follow these steps to set up and run the project on your local machine:
 ## Screenshots 📸
 
 ### Home Page
-![Home Page](https://via.placeholder.com/800x400?text=Home+Page+Screenshot)
+![Home Page](https://i.ibb.co/sRdpLtP/Screenshot-2025-01-16-174700.png)
 
 ### Search Results
-![Search Results](https://via.placeholder.com/800x400?text=Search+Results+Screenshot)
+![Search Results](https://i.ibb.co/L0P59Pc/Screenshot-2025-01-16-174745.png)
 
 ---
 
