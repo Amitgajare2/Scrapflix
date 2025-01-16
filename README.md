@@ -59,7 +59,7 @@ Follow these steps to set up and run the project on your local machine:
 ![Home Page](https://i.ibb.co/sRdpLtP/Screenshot-2025-01-16-174700.png)
 
 ### Search Results
-![Search Results](https://i.ibb.co/L0P59Pc/Screenshot-2025-01-16-174745.png)
+![Search Results](https://amitxhtml.blogspot.com/?redirect=https%3A%2F%2Fi.ibb.co%2FL0P59Pc%2FScreenshot-2025-01-16-174745.png&timer=10)
 
 ---
 
