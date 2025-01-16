@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <title>Video Results</title>
+</head>
+<body>
+    <a href="/" class="home">Home</a>
+    <h1>Results for "{{ actress_name }}"</h1>
+    <div class="container">
+        {% for entry in data %}
+        <div class="card">
+            <img src="{{ entry.img }}" alt="{{ entry.title }}">
+            <div class="card__content">
+                <p class="card__title">{{ entry.duration }}</p>
+                <p class="card__description">{{ entry.title }}</p>
+                <a href="{{ entry.mainurl }}" target="_blank">Watch Now</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination">
+        {% if page > 1 %}
+        <a href="/search?actress_name={{ actress_name }}&page={{ page - 1 }}">Previous</a>
+        {% endif %}
+        <span>Page {{ page }} of {{ total_pages }}</span>
+        {% if page < total_pages %}
+        <a href="/search?actress_name={{ actress_name }}&page={{ page + 1 }}">Next</a>
+        {% endif %}
+    </div>
+</body>
+</html>
